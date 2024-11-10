@@ -57,7 +57,7 @@ function checkButton(index){
         h4.innerHTML=`Game Over Your Score <b>${level}<b>!Press any key to Restart`;
 document.querySelector("body").style.backgroundColor="red";
 setTimeout(function(){
-    document.querySelector("body").style.backgroundColor="white"; 
+    document.querySelector("body").style.backgroundColor="#edf756"; 
 },150);
         reset();
     }
